@@ -3,4 +3,4 @@
     become: yes
 
     roles:
-      - iquzart.cis_centos_8
+      - section_1
