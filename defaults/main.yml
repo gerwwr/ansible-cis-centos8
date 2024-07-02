@@ -259,13 +259,13 @@ bootloader_password: p@ssw0rd
 config_aide: true
 aide_cron:
     cron_user: root
-    cron_file: /etc/crontab
-    aide_job: "/usr/sbin/aide --check"
+    cron_file: /etc/cron.d/0daily
+    aide_job: '/usr/sbin/aide --check'
     aide_minute: 0
     aide_hour: 5
-    aide_day: "*"
-    aide_month: "*"
-    aide_weekday: "*"
+    aide_day: '*'
+    aide_month: '*'
+    aide_weekday: '*'
 
 crypto_policy: FIPS #FUTURE #FIPS
 
